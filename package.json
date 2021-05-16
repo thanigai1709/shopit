@@ -1,0 +1,19 @@
+{
+	"name": "shopit",
+	"version": "1.0.0",
+	"description": "An ecommerce site",
+	"main": "server.js",
+	"scripts": {
+		"start": "node backend/server.js",
+		"dev": "SET NODE_ENV=DEVELOPMENT& nodemon backend/server.js",
+		"prod": "SET NODE_ENV=PRODUCTION& nodemon backend/server.js"
+	},
+	"author": "Thanigai",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^9.0.2",
+		"express": "^4.17.1",
+		"moment": "^2.29.1",
+		"mongoose": "^5.12.9"
+	}
+}
